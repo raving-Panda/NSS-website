@@ -1,0 +1,73 @@
+
+/* disable css animations */
+.touch .animated {
+	-webkit-animation-duration: 0;
+	animation-duration: 0;
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+} 
+/* disable background-size:cover */
+.touch #container_header, .touch #container_top2_modules, .touch #container_bottom1_modules, .touch #container_bottom2_modules {
+	-webkit-background-size: 	auto !important;
+	-moz-background-size: 		auto !important;
+	-o-background-size: 		auto !important;
+	background-size: 			auto !important;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+/* Disable mobile menu by default */
+.slicknav_menu {display:none;}
+
+/* #Tablet (Landscape)
+================================================== */
+
+@media only screen and (max-width: 1024px) {
+/* Hide default hornav menu */
+.hornav .container {display:none !important;}
+/* Show mobile hornav menu */
+.slicknav_menu {display:block;}
+
+.container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.wp-paginate li {
+    display: inline-block !important;
+    margin-bottom: 20px;
+}
+.excerpt {
+    width: 100%;
+}
+}
+
+/* #Tablet (Portrait)
+================================================== */
+    
+@media only screen and (max-width: 959px) {
+
+}
+
+/* #Mobile (Landscape)
+================================================== */
+
+@media only screen and (max-width: 767px) {
+	.socialmedia {
+	    display:none;
+	}
+	.slick-slider {
+	    max-height: 280px;
+	}
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 440px) {
+	.slick-slider {
+	    max-height: 460px;
+	}
+}
+
+

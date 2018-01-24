@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.embed-nav a {
+    font-family: "Source Sans Pro", "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+}
+.action-button {
+  display: none;
+}
+#result-iframe {
+  background-color: #F5F5F5 }
+.embed-nav {
+  border-radius: 6px 6px 0 0;
+}
+
+
+#js-link {
+    display: none;
+}
+
+.entry-content, .embed-nav, #result-iframe {background-color: transparent;}
+figure {box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;}
+
+.embed-nav a {
+    font-size: 16px;
+}
+.embed-nav a.active {
+    background-color: #333333;
+    color: #ffffff;
+}
+.embed-nav a.active::after {
+    border-top-color: #333333;
+}
+#embed-codepen-logo {
+    height: 25px;
+}
+
