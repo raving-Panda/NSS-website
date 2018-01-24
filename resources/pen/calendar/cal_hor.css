@@ -1,0 +1,122 @@
+@import "compass/css3";
+
+$bg : #333;
+html {
+  background: $bg;
+  height:100%;
+}
+.central0 {
+  position:absolute;
+  left:50%;
+  margin-left:-20%;
+  top:50px;
+  h1 {
+    color:orange;
+    text-align:center;
+  }
+}
+.inactive {
+  visibility:hidden;
+}
+.central {
+  left:50%;
+  margin-left:-25%;
+  background:transparent;
+  width:auto;
+  min-width:400px;
+  max-width:1250px;
+  font-family:"Helvetica Neue";
+  font-weight:100;
+  max-height:400px;
+  height:auto;
+  position:absolute;
+  bottom:200px;
+  text-align:center;
+}
+.central2 {
+  left:50%;
+  margin-left:-21%;
+  background:transparent;
+  width:auto;
+  min-width:1000px;
+  max-width:1250px;
+  font-family:"Helvetica Neue";
+  font-weight:100;
+  height:auto;
+  position:absolute;
+  bottom:80px;
+  text-align:center;
+}
+.day {
+    span {
+    color:orange;
+    text-decoration:none;
+    display:block;
+  }
+  cursor:pointer;
+  vertical-align:text-bottom;
+  font-size:0.5em;
+  display:inline-block;
+  border:1px solid orange;
+  border-radius:400px;
+  padding:0.6em;
+  position:relative;
+  bottom:0;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+  &.singledigit {
+      padding:0.6em 0.9em 0.6em 0.9em;
+  }
+  &:hover {
+       font-size:2.2em;
+        background:orange;
+      span {
+        color:black;
+      }
+    }
+}
+.months {
+}
+.month {
+  span {
+    color:orange;
+    text-decoration:none;
+    display:block;
+  }
+  cursor:pointer;
+  width:6%;
+  vertical-align:baseline;
+  font-size:0.5em;
+  display:inline-block;
+  border:1px solid orange;
+  border-radius:400px;
+  padding:0.6em;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+  &:hover {
+      background:orange;
+        -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+  span {
+    color:black;
+          -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+  }
+    }
+}
+.active {
+        background:orange;
+      color:black;
+}
